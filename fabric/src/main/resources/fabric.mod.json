@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "bounties",
+  "version": "${version}",
+
+  "name": "Bounties",
+  "description": "Claim bounties!",
+  "authors": ["ThatGravyBoat"],
+  "license": "All Rights Reserved",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "tech.thatgravyboat.bounties.fabric.BountiesFabric"
+    ]
+  },
+  "mixins": [
+    "bounties.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.18.2"
+  }
+}

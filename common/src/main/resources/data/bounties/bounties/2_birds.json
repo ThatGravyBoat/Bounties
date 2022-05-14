@@ -1,0 +1,36 @@
+{
+  "title": "2 Birds 1 Stone",
+  "description": "Daily Bounty",
+  "time": 86400,
+  "criteria": [
+    {
+      "type": "bounties:kill_entity",
+      "id": "kill_2_birds",
+      "message": "Kill 2 Chickens",
+      "entity": "minecraft:chicken",
+      "amount": 2
+    },
+    {
+      "type": "bounties:pickup_item",
+      "id": "pickup_a_stone",
+      "message": "Pickup a Stone",
+      "data": {
+        "items" : ["minecraft:stone"]
+      }
+    },
+    {
+      "type": "bounties:impossible",
+      "id": "test_impossible",
+      "message": "Impossible!"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "bounties:item",
+      "data": {
+        "id": "minecraft:raw_iron",
+        "Count": 5
+      }
+    }
+  ]
+}

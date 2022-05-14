@@ -1,0 +1,11 @@
+{
+  "bounty.item.tooltip.completed.percentage": "§6[§2✔§6]§7 %s: §e%s",
+  "bounty.item.tooltip.progressing.percentage": "§6[§c-§6]§7 %s: §e%s",
+  "bounty.item.tooltip.completed.boolean": "§6[§2✔§6]§7 %s",
+  "bounty.item.tooltip.progressing.boolean": "§6[§c-§6]§7 %s",
+  "bounty.item.tooltip.time": "§7Expires In: §a%s",
+  "bounty.item.tooltip.time_over": "§7Expires In: §cExpired!",
+  "bounty.item.expired": "§cBounty Expired!",
+  "bounty.item.doesnt_exist": "§cBounty no longer exists.",
+  "bounty.block.no_bounties": "§7No Bounties Available."
+}
